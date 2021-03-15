@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='1. 练习 - 创建函数'/>
+        <page name='2. App 练习 - App 运行'/>
+        <page name='3. 练习 - 参数和自变量标签'/>
+        <page name='4. App 练习 - 进度更新'/>
+        <page name='5. 练习 - 返回值和元组'/>
+        <page name='6. App 练习 - 分离函数'/>
+    </pages>
+</playground>
