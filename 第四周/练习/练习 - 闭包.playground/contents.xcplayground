@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='1. 练习 - 创建闭包'/>
+        <page name='2. 练习 - 将闭包作为自变量传递以及语法糖'/>
+        <page name='3. 练习 - 集合函数'/>
+    </pages>
+</playground>
