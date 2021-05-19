@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rS0-rK-Mqp">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1621408993397" translatesAutoresizingMaskIntoConstraints="NO" id="5Nq-rf-vaa">
+                                        <rect key="frame" x="5" y="5" width="404" height="813"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新闻管理系统" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMM-GV-1F2">
+                                        <rect key="frame" x="123" y="64" width="168" height="88"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="88" id="HDH-v7-08P"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="28"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="孟佳卫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbz-wT-ldf">
+                                        <rect key="frame" x="55" y="277" width="76" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019302070319" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Es-4y-JRe">
+                                        <rect key="frame" x="55" y="346" width="158.5" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49" id="Flm-Zc-4cv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="HMM-GV-1F2" firstAttribute="centerX" secondItem="5Nq-rf-vaa" secondAttribute="centerX" id="5hE-MI-2XY"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Nq-rf-vaa" secondAttribute="trailing" constant="5" id="Cc8-9e-4AK"/>
+                                    <constraint firstItem="6Es-4y-JRe" firstAttribute="leading" secondItem="rS0-rK-Mqp" secondAttribute="leading" constant="55" id="G71-xd-GSH"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Nq-rf-vaa" secondAttribute="bottom" id="GEZ-ld-8KR"/>
+                                    <constraint firstItem="6Es-4y-JRe" firstAttribute="top" secondItem="rS0-rK-Mqp" secondAttribute="top" constant="346" id="GL7-9s-jJJ"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Es-4y-JRe" secondAttribute="trailing" constant="20" symbolic="YES" id="Qpf-hD-pen"/>
+                                    <constraint firstItem="6Es-4y-JRe" firstAttribute="top" secondItem="Zbz-wT-ldf" secondAttribute="bottom" constant="39" id="gQT-mX-0oP"/>
+                                    <constraint firstItem="5Nq-rf-vaa" firstAttribute="leading" secondItem="rS0-rK-Mqp" secondAttribute="leading" constant="5" id="lBa-nL-Ydu"/>
+                                    <constraint firstItem="HMM-GV-1F2" firstAttribute="top" secondItem="rS0-rK-Mqp" secondAttribute="top" constant="64" id="p8s-QD-TTm"/>
+                                    <constraint firstItem="6Es-4y-JRe" firstAttribute="leading" secondItem="Zbz-wT-ldf" secondAttribute="leading" id="qaL-Q5-lUl"/>
+                                    <constraint firstItem="5Nq-rf-vaa" firstAttribute="top" secondItem="rS0-rK-Mqp" secondAttribute="top" constant="5" id="stO-hX-5oY"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Zbz-wT-ldf" secondAttribute="trailing" constant="20" symbolic="YES" id="vN9-Xq-9hR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rS0-rK-Mqp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2dR-CR-GsH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rS0-rK-Mqp" secondAttribute="trailing" id="8lf-Xp-Ewa"/>
+                            <constraint firstItem="rS0-rK-Mqp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rfx-aV-ydG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rS0-rK-Mqp" secondAttribute="bottom" id="lVx-Li-Aad"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1621408993397" width="720" height="1234"/>
+    </resources>
+</document>
