@@ -14,6 +14,10 @@
 		D9DAAEF32653BB10002F2724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DAAEF12653BB10002F2724 /* LaunchScreen.storyboard */; };
 		D9DAAEFB2653C213002F2724 /* news.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DAAEFA2653C213002F2724 /* news.swift */; };
 		D9DAAEFD265500FC002F2724 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DAAEFC265500FC002F2724 /* UserRegisterViewController.swift */; };
+		D9DAAEFF26552675002F2724 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DAAEFE26552675002F2724 /* NewsListTableViewController.swift */; };
+		D9DAAF01265526DD002F2724 /* NewsLoadTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DAAF00265526DC002F2724 /* NewsLoadTableViewController.swift */; };
+		D9DAAF0426552996002F2724 /* newsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DAAF0226552995002F2724 /* newsTableViewCell.swift */; };
+		D9DAAF0526552996002F2724 /* newsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9DAAF0326552995002F2724 /* newsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D9DAAEF42653BB10002F2724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9DAAEFA2653C213002F2724 /* news.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = news.swift; sourceTree = "<group>"; };
 		D9DAAEFC265500FC002F2724 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
+		D9DAAEFE26552675002F2724 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		D9DAAF00265526DC002F2724 /* NewsLoadTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsLoadTableViewController.swift; path = ../../FinalResource/NewsLoadTableViewController.swift; sourceTree = "<group>"; };
+		D9DAAF0226552995002F2724 /* newsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsTableViewCell.swift; sourceTree = "<group>"; };
+		D9DAAF0326552995002F2724 /* newsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +70,12 @@
 				D9DAAEE82653BB0E002F2724 /* AppDelegate.swift */,
 				D9DAAEEA2653BB0E002F2724 /* ViewController.swift */,
 				D9DAAEEC2653BB0E002F2724 /* Main.storyboard */,
+				D9DAAEFE26552675002F2724 /* NewsListTableViewController.swift */,
 				D9DAAEFC265500FC002F2724 /* UserRegisterViewController.swift */,
 				D9DAAEEF2653BB10002F2724 /* Assets.xcassets */,
+				D9DAAF0226552995002F2724 /* newsTableViewCell.swift */,
+				D9DAAF0326552995002F2724 /* newsTableViewCell.xib */,
+				D9DAAF00265526DC002F2724 /* NewsLoadTableViewController.swift */,
 				D9DAAEF12653BB10002F2724 /* LaunchScreen.storyboard */,
 				D9DAAEF42653BB10002F2724 /* Info.plist */,
 			);
@@ -130,6 +142,7 @@
 			files = (
 				D9DAAEF32653BB10002F2724 /* LaunchScreen.storyboard in Resources */,
 				D9DAAEF02653BB10002F2724 /* Assets.xcassets in Resources */,
+				D9DAAF0526552996002F2724 /* newsTableViewCell.xib in Resources */,
 				D9DAAEEE2653BB0E002F2724 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DAAF01265526DD002F2724 /* NewsLoadTableViewController.swift in Sources */,
 				D9DAAEFD265500FC002F2724 /* UserRegisterViewController.swift in Sources */,
 				D9DAAEFB2653C213002F2724 /* news.swift in Sources */,
 				D9DAAEEB2653BB0E002F2724 /* ViewController.swift in Sources */,
+				D9DAAF0426552996002F2724 /* newsTableViewCell.swift in Sources */,
+				D9DAAEFF26552675002F2724 /* NewsListTableViewController.swift in Sources */,
 				D9DAAEE92653BB0E002F2724 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
